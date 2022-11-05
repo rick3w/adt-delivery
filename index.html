@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atacadão da Tecnologia @ Delivery</title>
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- BOOTSTRAP CSS/JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <form action="">
+            <div class="mb-2">
+                <label for="nome-vendedor">Vendedor</label>
+                <input type="text" class="form-control" id="nome-vendedor">
+            </div>
+            <div class="mb-2">
+                <label for="nome-cliente" class="form-label">Cliente</label>
+                <input type="text" class="form-control" id="nome-cliente">
+            </div>
+            <div class="mb-2">
+                <label for="nome-produto" class="form-label">Produto(s)</label>
+                <input type="text" class="form-control" id="nome-produto">
+            </div>
+            <div class="mb-2">
+                <label for="forma-pagamento">Forma de Pagamento</label>                <select id="forma-pagamento" class="form-select">
+                    <option selected>Selecione...</option>
+                    <option value="debito">Débito</option>
+                    <option value="1x">1x</option>
+                    <option value="2x">2x</option>
+                    <option value="3x">3x</option>
+                    <option value="4x">4x</option>
+                    <option value="5x">5x</option>
+                    <option value="6x">6x</option>
+                    <option value="7x">7x</option>
+                    <option value="8x">8x</option>
+                    <option value="9x">9x</option>
+                    <option value="10x">10x</option>
+                    <option value="pago">Já foi pago</option>
+                </select>
+            </div>
+            <br>
+            <button class="btn btn-primary">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
