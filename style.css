@@ -1,5 +1,6 @@
 body {
     background-image: url(img/delivery.png);
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -10,6 +11,7 @@ main {
 }
 
 #logo {
+    width: 60%;
     display: block;
     margin: auto;
 }
