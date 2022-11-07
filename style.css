@@ -1,6 +1,11 @@
+body {
+    background-image: url(img/delivery.png);
+    background-position: center;
+}
+
 main {
     margin: auto;
-    width: 70%;
+    width: 60%;
     padding: 10px;
 }
 
