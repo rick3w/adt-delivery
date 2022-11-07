@@ -1,17 +1,21 @@
+* {
+    font-size: small;
+}
+
 body {
     background-image: url(img/delivery.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: auto;
+}
+
+body #logo {
+    display: block;
+    width: 20%;
+    margin: auto;
 }
 
 main {
     margin: auto;
     width: 60%;
     padding: 10px;
-}
-
-#logo {
-    width: 60%;
-    display: block;
-    margin: auto;
 }
